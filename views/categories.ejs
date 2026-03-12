@@ -8,3 +8,11 @@
 </ul>
 
 <%- include('partials/footer') %>
+
+<h1><%= title %></h1>
+
+<ul>
+  <% categories.forEach(category => { %>
+    <li><%= category.name %></li>
+  <% }) %>
+</ul>
